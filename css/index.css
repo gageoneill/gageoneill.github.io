@@ -1,4 +1,12 @@
 .jumbotron {
-	background-image: url("../images/bridgers3.jpg");
+	background-image: url("../images/test.jpg");
 	background-size: cover;
+	border-bottom: white double 10px;
+}
+
+
+h1 {
+
+	color: white;
+
 }
