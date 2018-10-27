@@ -16,7 +16,21 @@
 	<div class="content">
 		
 		<h1 style="font-size:6vw;" class="serif">gage.oneill</h1>
-		
+
+		<div class="smbuttons">
+
+			<div class="buttoncol">
+				<a href="https://www.linkedin.com/in/gageoneill/" target="_blank"> <img src="images/linkedin.png" style="border:0;"> </a>
+			</div>
+			<div class="buttoncol">
+				<a href="https://github.com/gageoneill" target="_blank"> <img src="images/github.png" style="border:0;"> </a>
+			</div>
+			<div class="buttoncol">
+				<a href="https://www.linkedin.com/in/gageoneill/" target="_blank"> <img src="images/mail.png" style="border:0;"> </a>
+			</div>
+
+		</div>
+
 		<div class="intro">
 			
 			<p class="serif">Hi! My name is Gage O'Neill. I'm a senior studying computer science at Montana State University. 
@@ -42,11 +56,10 @@
 		  	</div>
 		</div>
 
-
 		<!-- Full-width columns: (hidden by default) -->
 		<div id="b1" class="containerTab" style="display:none;background:#E8E8E8">
 		  	<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-		  	<p>java</p>
+		  	<p>I have developed in Java for a majority of my computer science courses. One of my larger Java projects is called Europa, a top-down shooter game that myself and three classmates built. Check out the <a href="https://github.com/gageoneill/Europa" target="_blank"><b>source code</b></a> on my GitHub!<p/>
 		</div>
 
 		<div id="b2" class="containerTab" style="display:none;background:#E8E8E8">
@@ -75,23 +88,33 @@
 		</div>
 
 		<!-- Full-width columns: (hidden by default) -->
-		<div id="b4" class="containerTab" style="display:none;background:red">
+		<div id="b4" class="containerTab" style="display:none;background:#E8E8E8">
 		  	<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 		  	<p>Git</p>
 		</div>
 
-		<div id="b5" class="containerTab" style="display:none;background:red">
+		<div id="b5" class="containerTab" style="display:none;background:#E8E8E8">
 		  	<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 			<p>SQL</p>
 		</div>
 
-		<div id="b6" class="containerTab" style="display:none;background:red">
+		<div id="b6" class="containerTab" style="display:none;background:#E8E8E8">
 		  	<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 		  	<p>something</p>
 		</div>
 	</div>
 
 <script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
 function openTab(tabName) {
   var i, x;
   x = document.getElementsByClassName("containerTab");

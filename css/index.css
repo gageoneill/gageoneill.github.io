@@ -6,6 +6,16 @@
     border: 1px solid black;
 }
 
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
 h1 {
     color: red;
     border: 1px solid black;
@@ -17,14 +27,34 @@ h1.serif {
     padding: 0px;
 }
 
+.smbuttons {
+    border: 1px solid black;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.buttoncol {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 10px;
+}
+.smbuttons:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .intro {
     border: 1px solid black;
-    padding: 5px;
+    /*padding: 5px;*/
 }
 
 p {
+    font-family: "Courier New", Courier, monospace;
     color: black;
-    background-color: #E8E8E8
+    background-color: #E8E8E8;
+    text-align: center;
 }
 
 p.serif {
@@ -40,16 +70,17 @@ p.serif {
     float: left;
     width: 33.33%;
     padding: 10px;
+    padding-top: 25px;
     text-align: center;
-    font-size: 25px;
     cursor: pointer;
     color: white;
 }
 
 .containerTab {
-    padding: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
     color: white;
 }
 
