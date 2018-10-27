@@ -1,0 +1,163 @@
+.content {
+    max-width: 800px;
+    margin: auto;    
+    /*padding: 5px;*/
+    /*background: #E8E8E8;*/
+    border: 1px solid black;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+h1 {
+    color: red;
+    border: 1px solid black;
+}
+
+h1.serif {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    padding: 0px;
+}
+
+.smbuttons {
+    border: 1px solid black;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.buttoncol {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 10px;
+}
+.smbuttons:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.intro {
+    border: 1px solid black;
+    /*padding: 5px;*/
+}
+
+p {
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+    background-color: #E8E8E8;
+    text-align: center;
+}
+
+p.serif {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    padding-top: 25px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.containerTab {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+    float: right;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/*
+.content {
+    max-width: 750px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+}
+
+.jumbotron {
+    background-color: #E8E8E8
+}
+
+h1 {
+    color: red;
+    font-size: 20pt;
+    background-color: #E8E8E8
+}
+
+h1.serif {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+}
+
+
+.jumbotron {
+	background-image: url("../images/test.jpg");
+	background-size: cover;
+	border-bottom: white double 10px;
+}
+
+
+h1 {
+
+	color: white;
+
+}
+
+#overlay {
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+    z-index: 2;
+}
+
+#text{
+    text-align: center;
+    padding-top: 50px;	
+    font-size: 5vh;
+    color: white;
+}
+*/
