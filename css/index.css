@@ -141,7 +141,7 @@ h1 {
 	color: white;
 
 }
-
+*/
 #overlay {
     position: fixed; 
     width: 100%; 
@@ -156,8 +156,9 @@ h1 {
 
 #text{
     text-align: center;
-    padding-top: 50px;	
+    top: 50%;
+    left: 50%;	
     font-size: 5vh;
     color: white;
 }
-*/
+
